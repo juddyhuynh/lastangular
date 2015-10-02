@@ -35,7 +35,9 @@
           {{post.title}}
         </span>
         <span>
-          <a href="#/posts/{{$index}}">Comments</a>
+          
+      <a href="#/posts/{{post._id}}">Comments</a>
+
         </span>
     </div>
     <form ng-submit="addPost()" style="margin-top:30px;">
